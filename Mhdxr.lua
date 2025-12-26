@@ -1789,7 +1789,7 @@ TabSettings:Button({
         local p = game:GetService("Players").LocalPlayer
         
         WindUI:Notify({Title = "System", Content = "Rejoining...", Duration = 3})
-        local myScript = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/syauqiaditia/roblox-uqill-fishit/refs/heads/main/uqill.lua"))()'
+        local myScript = 'loadstring(game:HttpGet("https://raw.githubusercontent.com/mhdxr/MhdxrHub/refs/heads/master/Mhdxr.lua"))()'
         if (syn and syn.queue_on_teleport) then
             syn.queue_on_teleport(myScript)
         elseif queue_on_teleport then
